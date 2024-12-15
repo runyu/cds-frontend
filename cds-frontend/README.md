@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+run it with 
+- (CMD) set NODE_OPTIONS=--openssl-legacy-provider
+- ng serve
+
+genertae ng 12 app
+- create a new folder and intsall ng 12
+- npm install @angular/core@12 @angular/cli@12 --save
+- create a ng 12 project
+- npx @angular/cli@12 new Angular12Project
+- ref: https://stackoverflow.com/questions/52331625/how-to-create-a-specific-version-of-angular-project-using-cli
