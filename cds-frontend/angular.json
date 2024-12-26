@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "cds-frontend:build:production"
+              "buildTarget": "cds-frontend:build:production"
             },
             "development": {
-              "browserTarget": "cds-frontend:build:development"
+              "buildTarget": "cds-frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "cds-frontend:build"
+            "buildTarget": "cds-frontend:build"
           }
         },
         "test": {
