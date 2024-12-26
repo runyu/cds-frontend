@@ -32,10 +32,10 @@ run it with
 - ng serve
 
 genertae ng 12 app
-- create a new folder and intsall ng 13
-- npm install @angular/core@13 @angular/cli@13 --save
-- create a ng 13 project
-- npx @angular/cli@13 new Angular12Project
+- create a new folder and intsall ng 12
+- npm install @angular/core@12 @angular/cli@12 --save
+- create a ng 12 project
+- npx @angular/cli@12 new Angular12Project
 - ref: https://stackoverflow.com/questions/52331625/how-to-create-a-specific-version-of-angular-project-using-cli
 
-- install ngx-editor: npm i ngx-editor@13
+- install ngx-editor: npm i ngx-editor@12
