@@ -1,5 +1,8 @@
 <h3> View Task Details</h3>
 <div>
+    <button class="btn btn-success" type="submit">Save</button>
+</div>
+<div>
     <div>
         <label> <b> Project Name: </b></label> {{task.projectName}}
     </div>
@@ -9,8 +12,13 @@
     <div>
         <label> <b> Assignee: </b></label> {{task.assignee}}
     </div>
+
     <div class="NgxEditor__Wrapper">
         <ngx-editor-menu [editor]="editor" [toolbar]="toolbar"> </ngx-editor-menu>
-        <ngx-editor [editor]="editor"  [ngModel]="html" [disabled]="false" [placeholder]="'Type here...'"></ngx-editor>
-      </div>
+        <ngx-editor [editor]="editor" [placeholder]="''" [ngModel]="editorDoc"></ngx-editor>
+    </div>
+
+    <div class="footer">
+        <label>footer</label>
+    </div>
 </div>
